@@ -13,8 +13,6 @@ export default function App() {
     const validPattern = /^-?(\d+|([+-/*]{2}))(?:[\d+\-*/]*|([+-/*]{2}))$/;
     return validPattern.test(expression);
   };
-
-  
   
   const handlePress = (item) => {
     console.log('Button pressed', item);
